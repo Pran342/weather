@@ -1,7 +1,6 @@
 import streamlit as st
 
 # Disable PyplotGlobalUseWarning
-st.set_option('deprecation.showPyplotGlobalUse', False)
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
