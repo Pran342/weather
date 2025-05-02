@@ -6,7 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
 # Load data
-df = pd.read_csv("weather_history_bangladesh.csv")
+df = pd.read_csv("final_web_weather/weather_history_bangladesh.csv")
 
 # Set up the web app
 st.set_page_config(page_title="Weather Analysis and Classification Web App", page_icon=":partly_sunny:", layout="wide")
